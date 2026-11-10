@@ -1,0 +1,16 @@
+{
+  "name": "yuanjing-image-connect",
+  "version": "1.0.0",
+  "description": "Connect a compatible desktop agent to Yuanjing AI and hand off image generation, editing, and product visual requests.",
+  "author": {
+    "name": "Yuanjing AI",
+    "url": "https://yuanjing-ai.com"
+  },
+  "homepage": "https://yuanjing-ai.com",
+  "repository": "https://github.com/zhouguida123-svg/yuanjing-image-connect",
+  "keywords": [
+    "image-generation",
+    "image-editing",
+    "product-visuals"
+  ]
+}

@@ -13,3 +13,5 @@ This public Agent Skill guides compatible desktop agents through the official Yu
 - [源景 AI 官网](https://yuanjing-ai.com)
 - [官方安装与连接细则](https://yuanjing-ai.com/.well-known/yuanjing-agent-install.md)
 - [官方实时清单](https://yuanjing-ai.com/.well-known/yuanjing-agent-skill.json)
+
+The [desktop plugin bundle](./plugin) provides portable Agent Plugins and Claude Code manifests.
