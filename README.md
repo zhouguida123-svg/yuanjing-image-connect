@@ -32,4 +32,17 @@ claude plugin marketplace add zhouguida123-svg/yuanjing-image-connect
 claude plugin install yuanjing-image-connect@yuanjing-ai
 ```
 
-这两个命令从源景 AI 的 GitHub 插件目录安装。首次连接仍按官网安装细则执行。
+GitHub Copilot CLI 可直接添加同一个 GitHub 插件目录。
+
+```bash
+copilot plugin marketplace add zhouguida123-svg/yuanjing-image-connect
+copilot plugin install yuanjing-image-connect@yuanjing-ai
+```
+
+也可以为当前项目安装固定版本的 Skill。
+
+```bash
+gh skill install zhouguida123-svg/yuanjing-image-connect yuanjing-image-connect@v1.0.0 --agent github-copilot --scope project
+```
+
+首次连接按官网安装细则执行。
