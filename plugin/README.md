@@ -8,3 +8,7 @@ In a hosted client without local execution and credential storage, the skill pro
 
 - [Official setup guide](https://yuanjing-ai.com/.well-known/yuanjing-agent-install.md)
 - [Publisher and support](https://yuanjing-ai.com)
+
+Install in Claude Code:
+
+/plugin install yuanjing-image-connect --marketplace zhouguida123-svg/yuanjing-image-connect

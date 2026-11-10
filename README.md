@@ -15,3 +15,21 @@ This public Agent Skill guides compatible desktop agents through the official Yu
 - [官方实时清单](https://yuanjing-ai.com/.well-known/yuanjing-agent-skill.json)
 
 The [desktop plugin bundle](./plugin) provides portable Agent Plugins and Claude Code manifests.
+
+## 在桌面 Agent 中安装为插件
+
+Codex CLI
+
+```bash
+codex plugin marketplace add zhouguida123-svg/yuanjing-image-connect
+codex plugin add yuanjing-image-connect@yuanjing-ai
+```
+
+Claude Code
+
+```bash
+claude plugin marketplace add zhouguida123-svg/yuanjing-image-connect
+claude plugin install yuanjing-image-connect@yuanjing-ai
+```
+
+这两个命令从源景 AI 的 GitHub 插件目录安装。首次连接仍按官网安装细则执行。

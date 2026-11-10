@@ -1,0 +1,14 @@
+{
+  "name": "yuanjing-ai",
+  "owner": {
+    "name": "Yuanjing AI"
+  },
+  "plugins": [
+    {
+      "name": "yuanjing-image-connect",
+      "source": "./plugin",
+      "description": "Connect a compatible desktop agent to Yuanjing AI for image workflows."
+    }
+  ],
+  "description": "Desktop Agent plugins from Yuanjing AI."
+}

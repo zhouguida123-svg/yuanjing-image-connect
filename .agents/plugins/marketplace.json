@@ -1,0 +1,20 @@
+{
+  "name": "yuanjing-ai",
+  "interface": {
+    "displayName": "Yuanjing AI"
+  },
+  "plugins": [
+    {
+      "name": "yuanjing-image-connect",
+      "source": {
+        "source": "local",
+        "path": "./plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
